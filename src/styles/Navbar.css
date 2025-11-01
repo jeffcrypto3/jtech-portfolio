@@ -1,0 +1,115 @@
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Nunito', sans-serif;
+  }
+
+  body {
+      background-color: #000000;
+      overflow-x: hidden;
+  }
+
+  nav {
+      position: sticky;
+      top: 0;
+      background-color: #000000;
+      /* width: 100%; */
+      display: flex;
+      padding: 20px 40px;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid rgba(250, 204, 21, 0.2);
+      z-index: 3;
+  }
+
+  .portfolio-txt h2 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      background: linear-gradient(to right, #facc15, #eab308, #ca8a04);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      filter: drop-shadow(0 2px 8px rgba(255, 221, 51, 0.15));
+      transition: transform 0.3s ease;
+      font-family: 'Orbitron', sans-serif;
+  }
+
+  .portfolio-txt h2:hover {
+      transform: scale(1.05);
+  }
+
+  .nav-links {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding: 0;
+      margin: 0;
+  }
+
+  .links {
+      position: relative;
+      color: #D1D5DB;
+      text-decoration: none;
+      font-size: 0.875rem;
+      font-weight: 600;
+      transition: color 0.3s ease;
+      display: inline-block;
+  }
+
+  /* Menu Icon Styles */
+  .menu-icon {
+      display: none;
+      cursor: pointer;
+  }
+
+
+
+  .links::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 2px;
+      width: 0%;
+      background: linear-gradient(to right, #facc15, #eab308, #ca8a04);
+      transition: width 0.3s ease;
+  }
+
+  .links:hover {
+      color: #facc15;
+  }
+
+  .nav-links li a:hover::after {
+      width: 100%;
+  }
+
+
+  .CV {
+      display: inline-block;
+      padding: 6px 16px;
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: #000;
+      background: linear-gradient(to right, #facc15, #eab308, #ca8a04);
+      border: 1px solid rgba(250, 204, 21, 0.4);
+      border-radius: 6px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+      text-decoration: none;
+
+  }
+
+  .CV:hover {
+      transform: scale(1.05);
+      background: linear-gradient(to right, #eab308, #facc15);
+      box-shadow: 0 0 12px rgba(250, 204, 21, 0.3);
+  }
+
+  .CV:focus {
+      outline: none;
+      box-shadow: 0 0 0 3px rgba(250, 204, 21, 0.4)
+  }
