@@ -1,0 +1,22 @@
+IMPORTANT: Add NBMF Project Image
+=====================================
+
+Please add an image for the National Bounce Music Foundation project:
+
+1. Download a suitable image from: https://nationalbouncemusicfoundation.org/
+   
+   Suggested images from their site:
+   - Their logo/hero image
+   - Community photos from their gallery
+   - Event photos
+
+2. Save the image as: nbmf.jpg (or nbmf.png/nbmf.webp)
+
+3. Place it in this folder: src/assets/
+
+4. The file is already referenced in projectsData.js as:
+   import nbmfImg from "../../assets/nbmf.jpg";
+
+5. Delete this text file once you've added the image.
+
+Recommended dimensions: 800x600px or similar aspect ratio for consistency with other project images.

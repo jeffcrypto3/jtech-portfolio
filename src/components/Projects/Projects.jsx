@@ -31,7 +31,7 @@ const Projects = () => {
       <div className="container">
         <h2 className="section-title">Projects</h2>
 
-        <p className="section-sub">Mini Projects</p>
+        <p className="section-sub">Personal Projects</p>
         <div className="projects-grid">
           {miniProjects.map((p, index) => (
             <ProjectCard key={index} project={p} />

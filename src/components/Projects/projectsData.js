@@ -3,6 +3,7 @@
 import phoneImg from "../../assets/phoneImg.jpeg";
 import cbtImg from "../../assets/cbtImg.webp";
 import bookImg from "../../assets/Azimi-koko.png";
+import nbmfImg from "../../assets/nbmf.jpg";
 
 
 export const miniProjects = [
@@ -26,5 +27,11 @@ export const professionalProjects = [
         desc: "Full client project with payments via paystack.",
         url: "https://azimikoko.com/",
         image: bookImg,
+    },
+    {
+        title: "National Bounce Music Foundation (NBMF)",
+        desc: "Cultural institution website dedicated to preserving, protecting, and uplifting Bounce music — the heartbeat of New Orleans. Features membership system, event management, and community gallery.",
+        url: "https://nationalbouncemusicfoundation.org/",
+        image: nbmfImg,
     },
 ];
